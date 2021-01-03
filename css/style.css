@@ -1,11 +1,16 @@
  *{
    margin-left: auto;
    margin-right: auto;
-   max-width: 1250px;
+   max-width: 1300px;
   }
+
+.wrapper {
+  padding: 30px;  
+}
 
 .content {
   display: flex;
+  box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .left-front {
@@ -60,7 +65,7 @@
   margin-right: 10px;
   color: #9da0a7;
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .skills-left-front li:hover {
@@ -71,7 +76,6 @@
   width: 835px;
   background-color: #d8d8d8;
   transition: all 1s;
-  margin-right: 39px;
 }
 
 .center-front:hover {
@@ -85,7 +89,7 @@
 
 .prof {
   margin-top: 54px;
-  color: #000000;
+  color:#2eace0;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 700;
@@ -117,7 +121,7 @@ text-shadow: 0 1px 0 #ccc,
 }
 
 .projects-center-front {
-  color: #000000;
+  color: #2eace0;
   font-family: "Montserrat";
   font-size: 24px;
   font-weight: 700;
@@ -154,23 +158,25 @@ text-shadow: 0 1px 0 #ccc,
 }
 
 .exp-link:hover {
-  color: purple ;
+  color: #ff8d41 ;
 }
 
 
 .certificates {
-  margin-top: 70px;
-  
+  margin-top: 40px;
+ 
 }
 
 .cer-on-left {
   width: 250px;
   margin-left: 25px;
+  transition: all 0.4s ease-in-out;
 }
 
 .cer-on-right {
   width: 250px;
   margin-left: 50px;
+  transition: all 0.4s ease-in-out;
 }
 
 .cer-margin {
@@ -182,14 +188,16 @@ text-shadow: 0 1px 0 #ccc,
 .cer-on-left:hover {
   overflow: hidden;
  scale: 3.1;
-  transform: translate(0px,-50px);
- transition: all 1s ease-in-out;
+  transform: translate(0px,-60px);
+ transition: all 0.4s ease-in-out;
+  box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 1.5);
 }
 
 
 .cer-on-right:hover {
   overflow: hidden;
  scale: 3.1;
-  transform: translate(-82px,-50px);
- transition: all 1s ease-in-out;
+  transform: translate(-98px,-60px);
+ transition: all 0.4s ease-in-out;
+ box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 1.5);
 }
