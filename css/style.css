@@ -122,7 +122,6 @@ text-shadow: 0 1px 0 #ccc,
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
-  -text-shadow: #6a717c 1px 1px;
 }
 
 .projects-logos {
@@ -140,7 +139,6 @@ text-shadow: 0 1px 0 #ccc,
   text-decoration: none;
   font-size: 22px;
   line-height: 16px;
-  -text-shadow: #6a717c 1px 1px 1px;
 }
 
 
@@ -156,10 +154,42 @@ text-shadow: 0 1px 0 #ccc,
 }
 
 .exp-link:hover {
-  color: #ff8d41 ;
+  color: purple ;
 }
 
 
 .certificates {
   margin-top: 70px;
+  
+}
+
+.cer-on-left {
+  width: 250px;
+  margin-left: 25px;
+}
+
+.cer-on-right {
+  width: 250px;
+  margin-left: 50px;
+}
+
+.cer-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.cer-on-left:hover {
+  overflow: hidden;
+ scale: 3.1;
+  transform: translate(0px,-50px);
+ transition: all 1s ease-in-out;
+}
+
+
+.cer-on-right:hover {
+  overflow: hidden;
+ scale: 3.1;
+  transform: translate(-82px,-50px);
+ transition: all 1s ease-in-out;
 }
