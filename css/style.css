@@ -4,10 +4,14 @@
 	max-width: 1250px;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .content {
 	display: flex;
 	background: #6a717c;
-	-box-shadow: 10px 15px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .left-front {
